@@ -23,6 +23,40 @@
         "id": "https://michaeljfaris.github.io/test/test/canvas-1/canvas",
         "type": "Canvas",
         "duration": 840.0,
+        "annotations": [
+          
+          {
+            "type": "AnnotationPage",
+            "id": "https://michaeljfaris.github.io/test/annotations/test-canvas-1-gra-context.json",
+            "label": {
+              "none": ["GRA Context"]
+            }
+          }
+          ,
+          {
+            "type": "AnnotationPage",
+            "id": "https://michaeljfaris.github.io/test/annotations/test-canvas-1-citation.json",
+            "label": {
+              "none": ["Citation"]
+            }
+          }
+          ,
+          {
+            "type": "AnnotationPage",
+            "id": "https://michaeljfaris.github.io/test/annotations/test-canvas-1-information.json",
+            "label": {
+              "none": ["Information"]
+            }
+          }
+          ,
+          {
+            "type": "AnnotationPage",
+            "id": "https://michaeljfaris.github.io/test/annotations/test-canvas-1-image.json",
+            "label": {
+              "none": ["Image"]
+            }
+          }
+        ],
         "items": [
           {
             "id": "https://michaeljfaris.github.io/test/test/canvas-1/paintings",
