@@ -1,0 +1,48 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://michaeljfaris.github.io/test/test/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "test" ] },
+    "homepage": [
+      {
+        "id": "https://ccdigitalpress.org/book/soundwriting/sounds/soundwritingpedagogies-preface.mp3",
+        "type": "Text",
+        "label": { "en": [ "test" ] },
+        "format": "text/html"
+      }
+    ],
+    "provider": [
+      {
+        "id": "https://ccdigitalpress.org/",
+        "type": "Agent",
+        "label": { "en": [ "Computers \u0026 Composition Digital Press" ] }
+      }
+    ],
+    "items": [
+      {
+        "id": "https://michaeljfaris.github.io/test/test/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 840.0,
+        "items": [
+          {
+            "id": "https://michaeljfaris.github.io/test/test/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://michaeljfaris.github.io/test/test/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://ccdigitalpress.org/book/soundwriting/sounds/soundwritingpedagogies-preface.mp3",
+                  "type": "Sound",
+                  "format": "audio/mp3",
+                    "duration": 840.0
+                },
+                "target": "https://michaeljfaris.github.io/test/test/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
